@@ -1,0 +1,125 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
+-keep class com.food.delivery.app.MainActivity { <init>(); }
+-keep class com.gettipsi.stripe.OpenBrowserActivity { <init>(); }
+-keep class com.gettipsi.stripe.RedirectUriReceiver { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.stripe.android.stripe3ds2.views.ChallengeActivity { <init>(); }
+-keep class com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity { <init>(); }
+-keep class com.stripe.android.view.AddPaymentMethodActivity { <init>(); }
+-keep class com.stripe.android.view.PaymentAuthWebViewActivity { <init>(); }
+-keep class com.stripe.android.view.PaymentFlowActivity { <init>(); }
+-keep class com.stripe.android.view.PaymentMethodsActivity { <init>(); }
+-keep class com.stripe.android.view.PaymentRelayActivity { <init>(); }
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.ContentLoadingProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.BrandZoneView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.ChallengeZoneView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.InformationZoneView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.ThreeDS2Button { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.ThreeDS2HeaderTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.ThreeDS2TextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.stripe3ds2.views.ThreeDS2WebView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.CardMultilineWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.CardNumberEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.CountryAutoCompleteTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.ExpiryDateEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.IconTextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.MaskedCardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.PaymentAuthWebView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.SelectShippingMethodWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.ShippingInfoWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.stripe.android.view.StripeEditText { <init>(android.content.Context, android.util.AttributeSet); }
+

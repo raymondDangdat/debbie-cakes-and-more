@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a final year project of Deborah Tenimu. A cake showcase, order, and delivery system
 
 A few resources to get you started if this is your first Flutter project:
 

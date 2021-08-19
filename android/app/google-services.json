@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "298590301171",
+    "firebase_url": "https://e-commerce-56297.firebaseio.com",
+    "project_id": "e-commerce-56297",
+    "storage_bucket": "e-commerce-56297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298590301171:android:70c429f4aebbbbb6584086",
+        "android_client_info": {
+          "package_name": "com.example.samsing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298590301171-aon7pq3ovfpe09jrestu7rj7ujapmnsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samsing",
+            "certificate_hash": "0a9741fcce47d6ac27f47d88ed7e2b4869db9452"
+          }
+        },
+        {
+          "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx22XAi0b_cy94Q7Zop2zbALZXYYKkgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298590301171:android:97ee08de361ae63b584086",
+        "android_client_info": {
+          "package_name": "com.food.delivery.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx22XAi0b_cy94Q7Zop2zbALZXYYKkgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298590301171:android:10d5ad173df29c04584086",
+        "android_client_info": {
+          "package_name": "com.raymond.samsi.samsiadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx22XAi0b_cy94Q7Zop2zbALZXYYKkgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

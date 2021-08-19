@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.stripe.android.stripe3ds2.views.BrandZoneView
+            android:id="@+id/ca_brand_zone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/brand_zone_max_height"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <View style="@style/Divider" />
+
+        <com.stripe.android.stripe3ds2.views.ChallengeZoneView
+            android:id="@+id/ca_challenge_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/challenge_activity_padding" />
+
+        <View style="@style/Divider" />
+
+        <com.stripe.android.stripe3ds2.views.InformationZoneView
+            android:id="@+id/ca_information_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/challenge_activity_padding" />
+
+    </LinearLayout>
+</ScrollView>

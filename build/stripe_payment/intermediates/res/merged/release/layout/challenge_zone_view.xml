@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:parentTag="LinearLayout">
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2HeaderTextView
+        android:id="@+id/czv_header"
+        style="@style/ThreeDS2HeaderTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/challenge_zone_vertical_padding"
+        tools:text="Challenge Info Header" />
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+        android:id="@+id/czv_info"
+        style="@style/ThreeDS2TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/challenge_zone_vertical_padding"
+        android:drawablePadding="@dimen/challenge_zone_text_indicator_padding"
+        tools:text="Challenge Info Text" />
+
+    <FrameLayout
+        android:id="@+id/czv_entry_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/challenge_zone_vertical_padding" />
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2Button
+        android:id="@+id/czv_submit_button"
+        style="@style/Stripe3DS2ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/challenge_zone_vertical_padding"
+        tools:text="Submit" />
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2Button
+        android:id="@+id/czv_resend_button"
+        style="@style/Stripe3DS2TextButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:text="Resend Code"
+        tools:visibility="visible" />
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+        android:id="@+id/czv_whitelisting_label"
+        style="@style/ThreeDS2TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/challenge_zone_select_button_vertical_margin"
+        android:visibility="gone"
+        tools:text="Whitelisting Info Text"
+        tools:visibility="visible" />
+
+    <RadioGroup
+        android:id="@+id/czv_whitelist_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/challenge_zone_vertical_padding"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/czv_whitelist_yes_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/challenge_zone_select_button_offset_margin"
+            android:layout_marginBottom="@dimen/challenge_zone_select_button_vertical_margin"
+            android:paddingStart="@dimen/challenge_zone_select_button_label_padding"
+            android:paddingEnd="@dimen/challenge_zone_select_button_label_padding"
+            android:text="@string/czv_whitelist_yes_label" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/czv_whitelist_no_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/challenge_zone_select_button_offset_margin"
+            android:paddingStart="@dimen/challenge_zone_select_button_label_padding"
+            android:paddingEnd="@dimen/challenge_zone_select_button_label_padding"
+            android:text="@string/czv_whitelist_no_label" />
+    </RadioGroup>
+</merge>
