@@ -8,6 +8,64 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:298590301171:android:e0294821ffcd8083584086",
+        "android_client_info": {
+          "package_name": "com.debbiecakesandmore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx22XAi0b_cy94Q7Zop2zbALZXYYKkgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298590301171:android:a8a4128046e515cd584086",
+        "android_client_info": {
+          "package_name": "com.debbiscake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLx22XAi0b_cy94Q7Zop2zbALZXYYKkgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298590301171-nelo8ltt1lfn67s8s8li6p2r4pu7mde1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:298590301171:android:70c429f4aebbbbb6584086",
         "android_client_info": {
           "package_name": "com.example.samsing"

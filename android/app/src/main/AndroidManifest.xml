@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.food.delivery.app">
+    package="com.debbiecakesandmore">
    <application
-        android:label="Dorcas' Restaurant"
+        android:label="Debbies' Cakes"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

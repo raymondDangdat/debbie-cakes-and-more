@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.white,
           iconTheme: IconThemeData(color: Colors.black),
           title: CustomText(
-            text: "Dorcas' Restaurant",
+            text: "Debbie's Cakes and More",
             size: 24,
             weight: FontWeight.bold,
           ),
@@ -103,9 +103,12 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: Container(
-          color: Colors.white30,
-          child: ProductsWidget(),
+        body: SingleChildScrollView(
+
+          child: Container(
+            color: Colors.white30,
+            child: ProductsWidget(),
+          ),
         ));
   }
 }

@@ -14,7 +14,7 @@ class ProductListTile extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Image.asset(image1, width: 140,),
+            child: Image.asset(logo, width: 140,),
           ),
           Wrap(
             direction: Axis.vertical,
