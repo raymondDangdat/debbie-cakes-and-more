@@ -12,6 +12,7 @@ MERGED from [:firebase_core] /Users/dangdatraymond/StudioProjects/debbie-cake/bu
 MERGED from [:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-37:12
 MERGED from [:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/dangdatraymond/StudioProjects/debbie-cake/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/dangdatraymond/StudioProjects/debbie-cake/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:fluttertoast] /Users/dangdatraymond/StudioProjects/debbie-cake/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/dangdatraymond/StudioProjects/debbie-cake/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b67c1f5d8511c1b26c5525eb0328045e/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -203,6 +204,8 @@ MERGED from [:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/bui
 MERGED from [:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/dangdatraymond/StudioProjects/debbie-cake/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/dangdatraymond/StudioProjects/debbie-cake/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/dangdatraymond/StudioProjects/debbie-cake/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/dangdatraymond/StudioProjects/debbie-cake/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/dangdatraymond/StudioProjects/debbie-cake/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/dangdatraymond/StudioProjects/debbie-cake/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/dangdatraymond/StudioProjects/debbie-cake/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44

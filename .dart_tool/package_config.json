@@ -338,6 +338,42 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "shared_preferences",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_linux",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_macos",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_platform_interface",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_platform_interface-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_web",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_windows",
+      "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/dangdatraymond/Downloads/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -440,7 +476,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-08-19T12:19:18.520634Z",
+  "generated": "2021-08-19T15:02:05.698389Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

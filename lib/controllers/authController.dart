@@ -5,6 +5,7 @@ import 'package:untitled/constants/app_constants.dart';
 import 'package:untitled/constants/firebase.dart';
 import 'package:untitled/models/user.dart';
 import 'package:untitled/screens/authentication/auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled/screens/home/home.dart';
 import 'package:untitled/utils/helpers/showLoading.dart';
 
@@ -17,7 +18,7 @@ class UserController extends GetxController {
   TextEditingController phone = TextEditingController();
   TextEditingController address = TextEditingController();
   TextEditingController password = TextEditingController();
-  String usersCollection = "users";
+  String usersCollection = "debbiesCakeUsers";
   Rx<UserModel> userModel = UserModel().obs;
 
   @override
@@ -40,14 +41,17 @@ class UserController extends GetxController {
   }
 
   void signIn() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
     try {
       showLoading();
       await auth
           .signInWithEmailAndPassword(
               email: email.text.trim(), password: password.text.trim())
           .then((result) {
+        prefs.setString('email', email.text.trim());
         _clearControllers();
       });
+
     } catch (e) {
       debugPrint(e.toString());
       Get.back();

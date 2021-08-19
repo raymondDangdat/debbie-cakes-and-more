@@ -1,13 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/screens/home/widgets/products.dart';
 import 'package:untitled/screens/home/widgets/shopping_cart.dart';
 import 'package:untitled/screens/products/products.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  String userEmail = '';
+  @override
+  void initState() {
+    getUserDetail();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,10 +69,23 @@ class HomeScreen extends StatelessWidget {
             children: [
               Obx(()=>UserAccountsDrawerHeader(
                 decoration: BoxDecoration(
-                  color: Colors.blueAccent
+                  color: Colors.blueAccent,
+                  image: DecorationImage(image: AssetImage('images/logo.png'), fit: BoxFit.cover)
                 ),
-                  accountName: Text(userController.userModel.value.name ?? ""),
-                  accountEmail: Text(userController.userModel.value.email ?? ""))),
+                  accountName: Container(
+                    padding: EdgeInsets.all(4),
+                      decoration: BoxDecoration(
+                          color: Colors.black54,
+                          borderRadius: BorderRadius.circular(10)
+                      ),
+                      child: Text(userController.userModel.value.name ?? "")),
+                  accountEmail: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.black54,
+                      borderRadius: BorderRadius.circular(10)
+                    ),
+                      padding: EdgeInsets.all(4),
+                      child: Text(userController.userModel.value.email ?? "")))),
               ListTile(
                 leading: Icon(Icons.book),
                 title: CustomText(
@@ -70,7 +96,7 @@ class HomeScreen extends StatelessWidget {
                  paymentsController.getPaymentHistory();
                 },
               ),
-              userController.userModel.value.name == "Admin" && userController.userModel.value.email == "dorcasadmin@gmail.com" ? Column(children: [
+              userEmail == "debbie@gmail.com" ? Column(children: [
                 ListTile(
                   leading: Icon(Icons.restaurant_rounded),
                   title: CustomText(
@@ -103,12 +129,17 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: SingleChildScrollView(
-
-          child: Container(
-            color: Colors.white30,
-            child: ProductsWidget(),
-          ),
+        body: Container(
+          color: Colors.white30,
+          child: ProductsWidget(),
         ));
+  }
+
+  void getUserDetail() async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      userEmail = prefs.getString('email');
+    });
   }
 }
