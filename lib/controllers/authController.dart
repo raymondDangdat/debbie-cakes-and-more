@@ -20,6 +20,7 @@ class UserController extends GetxController {
   TextEditingController password = TextEditingController();
   String usersCollection = "debbiesCakeUsers";
   Rx<UserModel> userModel = UserModel().obs;
+  RxBool showPassword = false.obs;
 
   @override
   void onReady() {

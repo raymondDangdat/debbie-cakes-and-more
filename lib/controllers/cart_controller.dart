@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:untitled/constants/app_constants.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/models/cart_item.dart';
-import 'package:untitled/models/product.dart';
+import 'package:untitled/models/cake.dart';
 import 'package:untitled/models/user.dart';
 import 'package:uuid/uuid.dart';
 

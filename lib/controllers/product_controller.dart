@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:untitled/constants/firebase.dart';
-import 'package:untitled/models/product.dart';
+import 'package:untitled/models/cake.dart';
 
-class ProducsController extends GetxController {
-  static ProducsController instance = Get.find();
+class ProductsController extends GetxController {
+  static ProductsController instance = Get.find();
   RxList<ProductModel> products = RxList<ProductModel>([]);
-  String collection = "products";
+  String collection = "cakes";
 
   @override
   onReady() {

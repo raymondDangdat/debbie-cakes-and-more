@@ -15,7 +15,7 @@ void main() async {
   await initialization.then((value){
     Get.put(AppController());
     Get.put(UserController());
-    Get.put(ProducsController());
+    Get.put(ProductsController());
     Get.put(CartController());
     Get.put(PaymentsController());
     Get.put(AddProductController());
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Dorcas' Restaurant",
+      title: "Debbi's Cakes",
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

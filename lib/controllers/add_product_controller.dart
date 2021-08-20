@@ -16,11 +16,12 @@ class AddProductController extends GetxController {
   UploadTask task;
   Rx<User> firebaseUser;
   RxBool isLoggedIn = false.obs;
-  TextEditingController productTitle = TextEditingController();
-  TextEditingController productName = TextEditingController();
-  TextEditingController category = TextEditingController();
-  TextEditingController price = TextEditingController();
-  String usersCollection = "products";
+  TextEditingController cakeTitle = TextEditingController();
+  TextEditingController cakeName = TextEditingController();
+  TextEditingController cakeDescription = TextEditingController();
+  TextEditingController cakeCategory = TextEditingController();
+  TextEditingController cakePrice = TextEditingController();
+  String cakes = "cakes";
   Rx<UserModel> userModel = UserModel().obs;
   String url;
 
@@ -31,29 +32,30 @@ class AddProductController extends GetxController {
     firebaseUser.bindStream(auth.userChanges());
   }
 
-  _addFoodToFirestore(String productId, String image) {
-    firebaseFirestore.collection(usersCollection).doc(productId).set({
-      "name": productName.text.trim(),
+  _addFoodToFirestore(String productId, String image) async{
+    await firebaseFirestore.collection(cakes).doc(productId).set({
+      "name": cakeName.text.trim(),
       "id": productId,
-      "category": category.text.trim(),
-      "price": double.parse(price.text.trim()),
+      "category": cakeCategory.text.trim(),
+      "price": double.parse(cakePrice.text.trim()),
       "image" : image,
+      "description": cakeDescription.text.trim(),
     });
       _clearControllers();
     Get.offAll(() => HomeScreen());
   }
 
   _clearControllers() {
-    productTitle.clear();
-    productName.clear();
-    category.clear();
+    cakeTitle.clear();
+    cakeName.clear();
+    cakeCategory.clear();
   }
 
   Future uploadFile(File file, String productId) async {
     if (file == null) return;
     showLoading();
     final fileName = basename(file.path);
-    final destination = 'products/$fileName';
+    final destination = 'cakes/$fileName';
     task = FirebaseApi.uploadFile(destination, file);
     if (task == null) return;
     final snapshot = await task.whenComplete(() {});

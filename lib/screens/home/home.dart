@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Colors.white,
           iconTheme: IconThemeData(color: Colors.black),
           title: CustomText(
-            text: "Debbie's Cakes and More",
+            text: "Debbie's Cakes",
             size: 24,
             weight: FontWeight.bold,
           ),
@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ListTile(
                   leading: Icon(Icons.restaurant_rounded),
                   title: CustomText(
-                    text: "Manage Foods",
+                    text: "Manage Cakes",
                   ),
                   onTap: ()async {
                     Navigator.pop(context);
