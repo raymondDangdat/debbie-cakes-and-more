@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Dorcas' Restaurant",
+      title: "Debbi's Cakes",
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

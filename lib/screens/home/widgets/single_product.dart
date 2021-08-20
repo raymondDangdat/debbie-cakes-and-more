@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/models/cake.dart';
+import 'package:untitled/screens/products/cake_details.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
 class SingleProductWidget extends StatelessWidget {
@@ -86,11 +87,10 @@ class SingleProductWidget extends StatelessWidget {
           ),
           SizedBox(height: 10,),
 
-          CustomText(
-            text: "Description",
-            size: 15,
-            weight: FontWeight.bold,
-          ),
+          Center(child: ElevatedButton.icon(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => CakeDetails(product: product,)));
+          }, icon: Icon(Icons.more_vert_outlined), label: Text('More')),),
+          SizedBox(height: 10,),
         ],
       ),
     );
