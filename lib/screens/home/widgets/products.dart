@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/constants/controllers.dart';
-import 'package:untitled/models/product.dart';
+import 'package:untitled/models/cake.dart';
 import 'package:untitled/screens/home/widgets/single_product.dart';
 import 'package:get/get.dart';
 

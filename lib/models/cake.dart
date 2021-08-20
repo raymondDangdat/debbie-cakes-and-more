@@ -4,14 +4,16 @@ class ProductModel{
   static const NAME = "name";
   static const CATEGORY = "category";
   static const PRICE = "price";
+  static const DESCRIPTION = "description";
 
    String id;
    String image;
    String name;
    String category;
    double price;
+   String description;
 
-  ProductModel({this.id, this.image, this.name, this.category, this.price});
+  ProductModel({this.id, this.image, this.name, this.category, this.price, this.description});
 
   ProductModel.fromMap(Map<String, dynamic> data){
     id = data[ID];
@@ -19,6 +21,7 @@ class ProductModel{
     name = data[NAME];
     category = data[CATEGORY];
     price = data[PRICE].toDouble();
+    description = data[DESCRIPTION];
   }
 
 }

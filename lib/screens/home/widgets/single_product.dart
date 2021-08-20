@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/constants/controllers.dart';
-import 'package:untitled/models/product.dart';
+import 'package:untitled/models/cake.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
 class SingleProductWidget extends StatelessWidget {
@@ -24,7 +24,7 @@ class SingleProductWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-              height: 150,
+              height: 220,
               decoration: BoxDecoration(
                 color: Colors.redAccent,
                 borderRadius: BorderRadius.only(
@@ -45,7 +45,8 @@ class SingleProductWidget extends StatelessWidget {
           ),
           CustomText(
             text: product.name,
-            color: Colors.grey,
+            color: Colors.black,
+            weight: FontWeight.bold,
           ),
           SizedBox(
             height: 5,
@@ -71,9 +72,23 @@ class SingleProductWidget extends StatelessWidget {
                   })
             ],
           ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 8),
+                child: CustomText(
+                  text: product.category,
+                  size: 10,
+                  weight: FontWeight.w500,
+                ),
+              ),
+            ],
+          ),
+          SizedBox(height: 10,),
+
           CustomText(
-            text: product.name,
-            size: 1,
+            text: "Description",
+            size: 15,
             weight: FontWeight.bold,
           ),
         ],

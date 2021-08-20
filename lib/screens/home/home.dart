@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ListTile(
                   leading: Icon(Icons.restaurant_rounded),
                   title: CustomText(
-                    text: "Manage Foods",
+                    text: "Manage Cakes",
                   ),
                   onTap: ()async {
                     Navigator.pop(context);

@@ -131,39 +131,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
   }
 
 
-  // createPostInFirestore(
-  //     {String description, String location, String mediaUrl}) {
-  //   postsRef
-  //       .document(widget.currentUser.id)
-  //       .collection("userPosts")
-  //       .document(id)
-  //       .setData({
-  //     "postId": id,
-  //     "ownerId": widget.currentUser.id,
-  //     "username": widget.currentUser.username,
-  //     "mediaUrl": mediaUrl,
-  //     "description": description,
-  //     "location": location,
-  //     "timeStamp": timestamp,
-  //     "likes": {},
-  //   });
-  // }
-  //
-  // handleSubmit() async {
-  //   setState(() {
-  //     isUploading = true;
-  //   });
-  //   await compressImage();
-  //   String mediaUrl = await uploadImage(file);
-  //   createPostInFirestore(
-  //       mediaUrl: mediaUrl,
-  //   setState(() {
-  //     file = null;
-  //     isUploading = false;
-  //     id = Uuid().v4();
-  //   });
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -206,12 +173,12 @@ class _ProductsScreenState extends State<ProductsScreen> {
             
             SizedBox(height: 10,),
             TextFormField(
-              controller: addProductController.category,
+              controller: addProductController.cakeCategory,
               textCapitalization: TextCapitalization.words,
-              decoration: InputDecoration(labelText: 'Category'),
+              decoration: InputDecoration(labelText: 'Cake Category'),
               textInputAction: TextInputAction.next,
               onSaved: (value) {
-                addProductController.category.text = value;
+                addProductController.cakeCategory.text = value;
               },
               validator: (value) {
                 if (value.length < 3) {
@@ -222,23 +189,39 @@ class _ProductsScreenState extends State<ProductsScreen> {
             ),
 
             TextFormField(
-              controller: addProductController.productName,
+              controller: addProductController.cakeName,
               textCapitalization: TextCapitalization.words,
-              decoration: InputDecoration(labelText: 'Food Name'),
+              decoration: InputDecoration(labelText: 'Cake Name'),
               textInputAction: TextInputAction.next,
               onSaved: (value) {
 
               },
               validator: (value) {
                 if (value.length < 3) {
-                  return 'Please enter a valid food name';
+                  return 'Please enter a valid cake name';
                 } else
                   return null;
               },
             ),
 
             TextFormField(
-              controller: addProductController.price,
+              controller: addProductController.cakeDescription,
+              textCapitalization: TextCapitalization.sentences,
+              decoration: InputDecoration(labelText: 'Cake Description'),
+              textInputAction: TextInputAction.next,
+              onSaved: (value) {
+
+              },
+              validator: (value) {
+                if (value.length < 10) {
+                  return 'Please enter a valid cake description';
+                } else
+                  return null;
+              },
+            ),
+
+            TextFormField(
+              controller: addProductController.cakePrice,
               keyboardType: TextInputType.number,
               textCapitalization: TextCapitalization.words,
               decoration: InputDecoration(labelText: 'Food Price'),

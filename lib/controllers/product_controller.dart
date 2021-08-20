@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:untitled/constants/firebase.dart';
-import 'package:untitled/models/product.dart';
+import 'package:untitled/models/cake.dart';
 
 class ProductsController extends GetxController {
   static ProductsController instance = Get.find();

@@ -16,10 +16,11 @@ class AddProductController extends GetxController {
   UploadTask task;
   Rx<User> firebaseUser;
   RxBool isLoggedIn = false.obs;
-  TextEditingController productTitle = TextEditingController();
-  TextEditingController productName = TextEditingController();
-  TextEditingController category = TextEditingController();
-  TextEditingController price = TextEditingController();
+  TextEditingController cakeTitle = TextEditingController();
+  TextEditingController cakeName = TextEditingController();
+  TextEditingController cakeDescription = TextEditingController();
+  TextEditingController cakeCategory = TextEditingController();
+  TextEditingController cakePrice = TextEditingController();
   String cakes = "cakes";
   Rx<UserModel> userModel = UserModel().obs;
   String url;
@@ -33,20 +34,21 @@ class AddProductController extends GetxController {
 
   _addFoodToFirestore(String productId, String image) async{
     await firebaseFirestore.collection(cakes).doc(productId).set({
-      "name": productName.text.trim(),
+      "name": cakeName.text.trim(),
       "id": productId,
-      "category": category.text.trim(),
-      "price": double.parse(price.text.trim()),
+      "category": cakeCategory.text.trim(),
+      "price": double.parse(cakePrice.text.trim()),
       "image" : image,
+      "description": cakeDescription.text.trim(),
     });
       _clearControllers();
     Get.offAll(() => HomeScreen());
   }
 
   _clearControllers() {
-    productTitle.clear();
-    productName.clear();
-    category.clear();
+    cakeTitle.clear();
+    cakeName.clear();
+    cakeCategory.clear();
   }
 
   Future uploadFile(File file, String productId) async {
