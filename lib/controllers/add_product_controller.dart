@@ -20,7 +20,7 @@ class AddProductController extends GetxController {
   TextEditingController productName = TextEditingController();
   TextEditingController category = TextEditingController();
   TextEditingController price = TextEditingController();
-  String usersCollection = "products";
+  String cakes = "cakes";
   Rx<UserModel> userModel = UserModel().obs;
   String url;
 
@@ -31,8 +31,8 @@ class AddProductController extends GetxController {
     firebaseUser.bindStream(auth.userChanges());
   }
 
-  _addFoodToFirestore(String productId, String image) {
-    firebaseFirestore.collection(usersCollection).doc(productId).set({
+  _addFoodToFirestore(String productId, String image) async{
+    await firebaseFirestore.collection(cakes).doc(productId).set({
       "name": productName.text.trim(),
       "id": productId,
       "category": category.text.trim(),
@@ -53,7 +53,7 @@ class AddProductController extends GetxController {
     if (file == null) return;
     showLoading();
     final fileName = basename(file.path);
-    final destination = 'products/$fileName';
+    final destination = 'cakes/$fileName';
     task = FirebaseApi.uploadFile(destination, file);
     if (task == null) return;
     final snapshot = await task.whenComplete(() {});

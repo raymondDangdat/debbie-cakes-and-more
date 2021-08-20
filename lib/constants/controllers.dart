@@ -9,6 +9,6 @@ import 'package:untitled/controllers/product_controller.dart';
 AppController appController = AppController.instance;
  UserController userController = UserController.instance;
  AddProductController addProductController = AddProductController.instance;
- ProducsController productsController = ProducsController.instance;
+ ProductsController productsController = ProductsController.instance;
  CartController cartController = CartController.instance;
  PaymentsController paymentsController = PaymentsController.instance;

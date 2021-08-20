@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/widgets/custom_btn.dart';
 
-class LoginWidget extends StatelessWidget {
+class LoginWidget extends StatefulWidget {
+  @override
+  _LoginWidgetState createState() => _LoginWidgetState();
+}
+
+class _LoginWidgetState extends State<LoginWidget> {
+  bool showPassword = true;
   @override
   Widget build(BuildContext context) {
     return  Container(
@@ -60,8 +66,13 @@ borderRadius: BorderRadius.circular(20)
                   child: TextField(
                     keyboardType: TextInputType.emailAddress,
                     controller: userController.password,
-                    obscureText: true,
+                    obscureText: showPassword,
                     decoration: InputDecoration(
+                      suffixIcon: IconButton(onPressed: (){
+                        setState(() {
+                          showPassword = !showPassword;
+                        });
+                      }, icon: Icon(Icons.visibility_off_outlined)),
                         icon: Icon(Icons.lock),
                         fillColor: Colors.white,
                         border: InputBorder.none,

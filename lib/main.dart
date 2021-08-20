@@ -15,7 +15,7 @@ void main() async {
   await initialization.then((value){
     Get.put(AppController());
     Get.put(UserController());
-    Get.put(ProducsController());
+    Get.put(ProductsController());
     Get.put(CartController());
     Get.put(PaymentsController());
     Get.put(AddProductController());

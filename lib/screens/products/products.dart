@@ -48,6 +48,11 @@ class _ProductsScreenState extends State<ProductsScreen> {
     });
   }
 
+  bool _isFormValidated() {
+    final FormState form = formState.currentState;
+    return form.validate();
+  }
+
   handleChooseFromGallery(BuildContext context) async {
     Navigator.pop(context);
     File file = await ImagePicker.pickImage(
@@ -206,7 +211,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
               decoration: InputDecoration(labelText: 'Category'),
               textInputAction: TextInputAction.next,
               onSaved: (value) {
-
+                addProductController.category.text = value;
               },
               validator: (value) {
                 if (value.length < 3) {
@@ -252,7 +257,9 @@ class _ProductsScreenState extends State<ProductsScreen> {
             SizedBox(height: 50,),
 
             ElevatedButton(onPressed: (){
-              uploadFile();
+              if(_isFormValidated()){
+                uploadFile();
+              }
             }, child: Text("Add Food"))
           ],
         )),
