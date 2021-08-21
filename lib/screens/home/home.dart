@@ -140,6 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     setState(() {
       userEmail = prefs.getString('email');
+      cartController.cartItems.value = userController.userModel.value.cart.length;
     });
   }
 }

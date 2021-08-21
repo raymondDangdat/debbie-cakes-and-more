@@ -23,14 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871f5490-3746-452b-a129-41e932ec168b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/controllers/cart_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/cart_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/controllers/payments_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/payments_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/orders/orders.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/orders/orders.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/orders/widgets/orders_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/orders/widgets/orders_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/products/cake_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/products/cake_details.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,22 +98,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="AVDManager/0.0.1280.800@0.0.1280.800" timestamp="1629374345325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1629531279496">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1629531920454">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629531279496" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1629531279492">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629531920454" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1629531920452">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629531279492" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1629531279489">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629531920452" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1629531920451">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629531279489" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1629531279494">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629531920451" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1629531920453">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629531279494" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629531920453" />
     <state x="228" y="150" key="IDE.errors.dialog" timestamp="1629377844083">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
