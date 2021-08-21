@@ -51,10 +51,10 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           );
                         }),
-                    // Positioned(
-                    //   right: 0,
-                    //     top: 7,
-                    //     child: Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),))
+                    Positioned(
+                      right: 0,
+                        top: 7,
+                        child: Obx(() => Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),)))
                   ],
                 ),
               ),

@@ -14,7 +14,7 @@ import 'package:uuid/uuid.dart';
 
 class PaymentsController extends GetxController {
   static PaymentsController instance = Get.find();
-  String collection = "payments";
+  String collection = "cakePayments";
   String url =
       'https://us-central1-sneex-cbc6a.cloudfunctions.net/createPaymentIntent';
   List<PaymentsModel> payments = [];
@@ -60,9 +60,9 @@ class PaymentsController extends GetxController {
       final status = paymentIntentX['paymentIntent']['status'];
       if (status == 'succeeded') {
         StripePayment.completeNativePayRequest();
-        _addToCollection(paymentStatus: status, paymentId: paymentMethod.id);
+        _addToCollection(paymentStatus: "Pending", paymentId: paymentMethod.id);
         userController.updateUserData({"cart": []});
-        Get.snackbar("Success", "Payment succeeded");
+        Get.snackbar("Success", "Payment successful");
       }else{
         _addToCollection(paymentStatus: status, paymentId: paymentMethod.id);
       }
@@ -106,6 +106,13 @@ class PaymentsController extends GetxController {
       "phone": userController.userModel.value.phone,
       "address": userController.userModel.value.address,
       "createdAt": DateTime.now(),
+    });
+    Get.back();
+  }
+
+  updateOrderStatus(String orderId, String status){
+    firebaseFirestore.collection(collection).doc(orderId).update({
+      "status": status,
     });
     Get.back();
   }

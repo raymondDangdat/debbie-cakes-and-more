@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/screens/orders/widgets/orders_widget.dart';
-import 'package:untitled/screens/payments/widgets/payment_widget.dart';
 
 class OrdersScreen extends StatelessWidget {
 
