@@ -5,6 +5,7 @@ import 'package:untitled/constants/app_constants.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/constants/firebase.dart';
 import 'package:untitled/models/payments.dart';
+import 'package:untitled/screens/home/home.dart';
 import 'package:untitled/screens/orders/orders.dart';
 import 'package:untitled/screens/payments/payments.dart';
 import 'package:untitled/utils/helpers/showLoading.dart';
@@ -62,6 +63,7 @@ class PaymentsController extends GetxController {
         StripePayment.completeNativePayRequest();
         _addToCollection(paymentStatus: "Pending", paymentId: paymentMethod.id);
         userController.updateUserData({"cart": []});
+        cartController.cartItems.value = 0;
         Get.snackbar("Success", "Payment successful");
       }else{
         _addToCollection(paymentStatus: status, paymentId: paymentMethod.id);
@@ -115,7 +117,7 @@ class PaymentsController extends GetxController {
     firebaseFirestore.collection(collection).doc(orderId).update({
       "status": status,
     });
-    Get.back();
+    Get.to(() => HomeScreen());
   }
 
   getPaymentHistory() {
