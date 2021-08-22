@@ -19,11 +19,11 @@ class ProductsScreen extends StatefulWidget {
 class _ProductsScreenState extends State<ProductsScreen> {
   final GlobalKey<FormState> formState = GlobalKey<FormState>();
 
-  final TextEditingController categoryController = TextEditingController();
+  // final TextEditingController categoryController = TextEditingController();
 
-  final TextEditingController nameController = TextEditingController();
+  // final TextEditingController nameController = TextEditingController();
 
-  final TextEditingController priceController = TextEditingController();
+  // final TextEditingController priceController = TextEditingController();
 
 
   FirebaseStorage storage = FirebaseStorage.instance;
@@ -145,7 +145,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
         centerTitle: true,
         elevation: 0,
         title: Text(
-          "Foods",
+          "Add Cake",
           style: TextStyle(color: Colors.black),
         ),
 

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_add_black_32dp.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_add_black_32dp.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_checkmark_tinted.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_checkmark_tinted.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_jcb_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_jcb_template_32.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_cvc.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_cvc.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_mastercard.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_mastercard.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_amex_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_amex_template_32.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_amex.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_amex.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_discover.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_discover.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_mastercard_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_mastercard_template_32.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/ddecdb4f2f2c8235405c40a08fa86917/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_cvc_amex.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_cvc_amex.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_unknown.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_unknown.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_discover_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_discover_template_32.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_checkmark.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_checkmark.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/ddecdb4f2f2c8235405c40a08fa86917/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_error_amex.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_error_amex.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_error.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_error.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_diners.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_diners.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_jcb.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_jcb.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_diners_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_diners_template_32.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_visa.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_visa.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/res/merged/release/drawable-anydpi-v21/ic_visa_template_32.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/res/drawable-anydpi-v21/ic_visa_template_32.xml"
+    }
+]
