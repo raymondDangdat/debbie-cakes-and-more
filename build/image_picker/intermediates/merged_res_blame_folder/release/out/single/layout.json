@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/layout/notification_template_part_time.xml"
+    }
+]

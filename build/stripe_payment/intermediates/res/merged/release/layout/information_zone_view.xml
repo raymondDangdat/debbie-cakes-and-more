@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+            android:id="@+id/izv_why_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Why Label" />
+
+        <View
+            android:id="@+id/izv_why_arrow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_arrow" />
+    </LinearLayout>
+
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+        android:id="@+id/izv_why_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/information_zone_label_padding"
+        android:visibility="gone"
+        tools:text="Why Text"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/information_zone_vertical_padding"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+            android:id="@+id/izv_expand_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Expand Label" />
+
+        <View
+            android:id="@+id/izv_expand_arrow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_arrow" />
+    </LinearLayout>
+
+
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView
+        android:id="@+id/izv_expand_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/information_zone_label_padding"
+        android:visibility="gone"
+        tools:text="Expand Text"
+        tools:visibility="visible" />
+
+</LinearLayout>

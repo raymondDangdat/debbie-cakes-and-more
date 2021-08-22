@@ -1,0 +1,388 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.debbiecakesandmore"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+11-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+12-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+13-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+14-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:3:4-40:19
+21        android:name="androidx.multidex.MultiDexApplication"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/launcher_icon"
+23-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:5:9-45
+24        android:label="Debbies&apos; Cakes"
+24-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:4:9-32
+25        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+25-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:11:18-74
+26        <activity
+26-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:6:9-34:20
+27            android:name="com.debbiecakesandmore.MainActivity"
+27-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:7:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:10:13-163
+29            android:hardwareAccelerated="true"
+29-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:11:13-47
+30            android:launchMode="singleTop"
+30-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:8:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:9:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:12:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:17:13-20:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:18:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:19:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:26:13-29:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:27:15-79
+52                android:resource="@drawable/launch_background" />
+52-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:28:15-61
+53
+54            <intent-filter>
+54-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:30:13-33:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:31:17-68
+55-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:31:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:32:17-76
+57-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:32:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:37:9-39:33
+65            android:name="flutterEmbedding"
+65-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:38:13-44
+66            android:value="2" />
+66-->/Users/dangdatraymond/StudioProjects/debbie-cake/android/app/src/main/AndroidManifest.xml:39:13-30
+67
+68        <service
+68-->[:firebase_auth] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:firebase_auth] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+72            <meta-data
+72-->[:firebase_auth] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+73-->[:firebase_auth] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_auth] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_storage] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+76-->[:firebase_storage] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_storage] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:cloud_firestore] /Users/dangdatraymond/StudioProjects/debbie-cake/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+79-->[:cloud_firestore] /Users/dangdatraymond/StudioProjects/debbie-cake/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:cloud_firestore] /Users/dangdatraymond/StudioProjects/debbie-cake/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_core] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+82-->[:firebase_core] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /Users/dangdatraymond/StudioProjects/debbie-cake/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:23.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:23.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:23.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-storage:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/0acf3db9848686dfaaf696f7fddb6eb5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+91                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+91-->[com.google.firebase:firebase-storage:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/0acf3db9848686dfaaf696f7fddb6eb5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-storage:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/0acf3db9848686dfaaf696f7fddb6eb5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+93        </service>
+94
+95        <meta-data
+95-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:36
+96            android:name="com.google.android.gms.wallet.api.enabled"
+96-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:13:13-69
+97            android:value="true" />
+97-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:14:13-33
+98
+99        <activity
+99-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:16:9-20:75
+100            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+100-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:17:13-67
+101            android:exported="false"
+101-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+102            android:launchMode="singleTask"
+102-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:19:13-44
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:20:13-72
+104        <activity
+104-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:21:9-34:20
+105            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+105-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:22:13-67
+106            android:exported="true"
+106-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:23:13-36
+107            android:launchMode="singleTask"
+107-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:24:13-44
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+108-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:25:13-83
+109            <intent-filter>
+109-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:26:13-33:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:17-69
+110-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:17-76
+112-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:27-73
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:17-78
+113-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:27-75
+114
+115                <data android:scheme="example" />
+115-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:17-50
+115-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:23-47
+116            </intent-filter>
+117        </activity>
+118
+119        <provider
+119-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+120            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+120-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+121            android:authorities="com.debbiecakesandmore.flutter.image_provider"
+121-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+122            android:exported="false"
+122-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+123            android:grantUriPermissions="true" >
+123-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+124            <meta-data
+124-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+125                android:name="android.support.FILE_PROVIDER_PATHS"
+125-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+126                android:resource="@xml/flutter_image_picker_file_paths" />
+126-->[:image_picker] /Users/dangdatraymond/StudioProjects/debbie-cake/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+127        </provider>
+128
+129        <activity
+129-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:12:9-14:57
+130            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+130-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:13:13-76
+131            android:theme="@style/StripeDefaultTheme" />
+131-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:14:13-54
+132        <activity
+132-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:15:9-17:57
+133            android:name="com.stripe.android.view.PaymentMethodsActivity"
+133-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:16:13-74
+134            android:theme="@style/StripeDefaultTheme" />
+134-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:17:13-54
+135        <activity
+135-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:18:9-20:57
+136            android:name="com.stripe.android.view.PaymentFlowActivity"
+136-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:19:13-71
+137            android:theme="@style/StripeDefaultTheme" />
+137-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:20:13-54
+138        <activity
+138-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:21:9-23:57
+139            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+139-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:22:13-78
+140            android:theme="@style/StripeDefaultTheme" />
+140-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:23:13-54
+141        <activity
+141-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:24:9-26:57
+142            android:name="com.stripe.android.view.PaymentRelayActivity"
+142-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:25:13-72
+143            android:theme="@style/StripeDefaultTheme" />
+143-->[com.stripe:stripe-android:10.4.6] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/5c7e61c5e0214e26f2898c7b4c0e2d29/jetified-stripe-android-10.4.6/AndroidManifest.xml:26:13-54
+144        <activity
+144-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:12:9-14:54
+145            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+145-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:13:13-81
+146            android:theme="@style/Stripe3DS2Theme" />
+146-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:14:13-51
+147        <activity
+147-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:15:9-17:54
+148            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+148-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:16:13-95
+149            android:theme="@style/Stripe3DS2Theme" />
+149-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/11f3b6d1226c176934ee4b819418582e/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:17:13-51
+150        <activity
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+151            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+152            android:excludeFromRecents="true"
+152-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+153            android:exported="true"
+153-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+154            android:launchMode="singleTask"
+154-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+156            <intent-filter>
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:17-69
+157-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:17-76
+159-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:17-78
+160-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:27-75
+161
+162                <data
+162-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:17-50
+163                    android:host="firebase.auth"
+164                    android:path="/"
+165                    android:scheme="genericidp" />
+165-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:23-47
+166            </intent-filter>
+167        </activity>
+168        <activity
+168-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+169            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+169-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+170            android:excludeFromRecents="true"
+170-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+171            android:exported="true"
+171-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+172            android:launchMode="singleTask"
+172-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+173-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+174            <intent-filter>
+174-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:17-69
+175-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:27:25-66
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:17-76
+177-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:17-78
+178-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:30:27-75
+179
+180                <data
+180-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:17-50
+181                    android:host="firebase.auth"
+182                    android:path="/"
+183                    android:scheme="recaptcha" />
+183-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:32:23-47
+184            </intent-filter>
+185        </activity>
+186
+187        <service
+187-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+188            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+188-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+189            android:enabled="true"
+189-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+190            android:exported="false" >
+190-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+191            <intent-filter>
+191-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+192                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/024ee83d74904e363a7d4e0146b888d7/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:17-76
+194-->[:stripe_payment] /Users/dangdatraymond/StudioProjects/debbie-cake/build/stripe_payment/intermediates/library_manifest/release/AndroidManifest.xml:29:27-73
+195            </intent-filter>
+196        </service>
+197
+198        <provider
+198-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+199            android:name="com.google.firebase.provider.FirebaseInitProvider"
+199-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+200            android:authorities="com.debbiecakesandmore.firebaseinitprovider"
+200-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+202            android:exported="false"
+202-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+203            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+203-->[com.google.firebase:firebase-common:20.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+204        <uses-library
+204-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+205            android:name="org.apache.http.legacy"
+205-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+206            android:required="false" />
+206-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b7ba73781547593666ee8a9a82f394ec/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+207
+208        <activity
+208-->[com.google.android.gms:play-services-base:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+209            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+209-->[com.google.android.gms:play-services-base:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-base:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.google.android.gms:play-services-base:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b4abb3ae12fe055372984e118f8f9d66/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b4abb3ae12fe055372984e118f8f9d66/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:17.1.0] /Users/dangdatraymond/.gradle/caches/transforms-2/files-2.1/b4abb3ae12fe055372984e118f8f9d66/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+216    </application>
+217
+218</manifest>
