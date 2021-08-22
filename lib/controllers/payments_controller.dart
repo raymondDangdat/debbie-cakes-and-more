@@ -107,6 +107,7 @@ class PaymentsController extends GetxController {
       "address": userController.userModel.value.address,
       "createdAt": DateTime.now(),
     });
+    cartController.cartItems.value = 0;
     Get.back();
   }
 

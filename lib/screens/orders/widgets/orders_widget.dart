@@ -23,20 +23,35 @@ class _OrdersWidgetState extends State<OrdersWidget> {
             title: Text("Change Status to:"),
             children: [
               SimpleDialogOption(
-                  child: Text("Approved"),
+                  child: Text("Confirm"),
                   onPressed:(){
-                    paymentsController.updateOrderStatus(widget.paymentsModel.id.toString(), "Approved", );
+                    paymentsController.updateOrderStatus(widget.paymentsModel.id.toString(), "Confirmed", );
+                  }
+              ),
+              SimpleDialogOption(
+                  child: Text("Processing"),
+                  onPressed:(){
+                    paymentsController.updateOrderStatus(widget.paymentsModel.id.toString(), "Processing", );
                   }
               ),
               SimpleDialogOption(
                   child: Text("Delivered"),
                   onPressed: (){
-                    // handleChooseFromGallery(context);
+                    paymentsController.updateOrderStatus(widget.paymentsModel.id.toString(), "Delivered", );
                   }
               ),
               SimpleDialogOption(
-                child: Text("Cancel"),
-                onPressed: () => Navigator.pop(context),
+                  child: Text("Cancel Order"),
+                  onPressed: (){
+                    paymentsController.updateOrderStatus(widget.paymentsModel.id.toString(), "Canceled", );
+                  }
+              ),
+              SimpleDialogOption(
+                child: ElevatedButton(
+                  onPressed: (){
+                    Navigator.pop(context);
+                  },
+                    child: Text("Close")),
               )
             ],
           );
