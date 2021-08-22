@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/screens/home/widgets/products.dart';
 import 'package:untitled/screens/home/widgets/shopping_cart.dart';
+import 'package:untitled/screens/orders/orders.dart';
 import 'package:untitled/screens/products/products.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
@@ -51,10 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           );
                         }),
-                    // Positioned(
-                    //   right: 0,
-                    //     top: 7,
-                    //     child: Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),))
+                    Positioned(
+                      right: 0,
+                        top: 7,
+                        child: Obx(() => Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),)))
                   ],
                 ),
               ),
@@ -115,6 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   onTap: ()async {
                     Navigator.pop(context);
+                    // Get.to(() => OrdersScreen());
                     paymentsController.getOrders();
                   },
                 ),
@@ -140,6 +142,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     setState(() {
       userEmail = prefs.getString('email');
+      cartController.cartItems.value = userController.userModel.value.cart.length;
     });
   }
 }

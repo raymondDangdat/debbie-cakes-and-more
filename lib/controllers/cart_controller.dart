@@ -54,6 +54,7 @@ class CartController extends GetxController {
       userController.updateUserData({
         "cart": FieldValue.arrayRemove([cartItem.toJson()])
       });
+      cartItems.value -= 1;
     } catch (e) {
       Get.snackbar("Error", "Cannot remove this item");
       debugPrint(e.message);

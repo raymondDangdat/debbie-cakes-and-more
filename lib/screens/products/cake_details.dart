@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
+import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/models/cake.dart';
 import 'package:untitled/screens/home/widgets/shopping_cart.dart';
 import 'package:untitled/widgets/custom_text.dart';
@@ -41,10 +43,10 @@ class _CakeDetailsState extends State<CakeDetails> {
                           ),
                         );
                       }),
-                  // Positioned(
-                  //   right: 0,
-                  //     top: 7,
-                  //     child: Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),))
+      Positioned(
+          right: 0,
+          top: 7,
+          child: Obx(() => Text('${cartController.cartItems.value}', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold),)))
                 ],
               ),
             ),
