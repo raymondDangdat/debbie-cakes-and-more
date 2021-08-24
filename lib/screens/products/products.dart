@@ -19,11 +19,11 @@ class ProductsScreen extends StatefulWidget {
 class _ProductsScreenState extends State<ProductsScreen> {
   final GlobalKey<FormState> formState = GlobalKey<FormState>();
 
-  // final TextEditingController categoryController = TextEditingController();
+  final TextEditingController categoryController = TextEditingController();
 
-  // final TextEditingController nameController = TextEditingController();
+  final TextEditingController nameController = TextEditingController();
 
-  // final TextEditingController priceController = TextEditingController();
+  final TextEditingController priceController = TextEditingController();
 
 
   FirebaseStorage storage = FirebaseStorage.instance;
@@ -68,7 +68,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
         context: parentContext,
         builder: (context) {
           return SimpleDialog(
-            title: Text("Upload Food from"),
+            title: Text("Upload Cake from"),
             children: [
               SimpleDialogOption(
                 child: Text("Camera"),
@@ -174,6 +174,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
             SizedBox(height: 10,),
             TextFormField(
               controller: addProductController.cakeCategory,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               textCapitalization: TextCapitalization.words,
               decoration: InputDecoration(labelText: 'Cake Category'),
               textInputAction: TextInputAction.next,
@@ -190,6 +191,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
 
             TextFormField(
               controller: addProductController.cakeName,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               textCapitalization: TextCapitalization.words,
               decoration: InputDecoration(labelText: 'Cake Name'),
               textInputAction: TextInputAction.next,
@@ -206,6 +208,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
 
             TextFormField(
               controller: addProductController.cakeDescription,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               textCapitalization: TextCapitalization.sentences,
               decoration: InputDecoration(labelText: 'Cake Description'),
               textInputAction: TextInputAction.next,
@@ -222,6 +225,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
 
             TextFormField(
               controller: addProductController.cakePrice,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               keyboardType: TextInputType.number,
               textCapitalization: TextCapitalization.words,
               decoration: InputDecoration(labelText: 'Cake Price'),

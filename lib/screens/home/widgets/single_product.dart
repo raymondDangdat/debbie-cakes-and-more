@@ -5,6 +5,7 @@ import 'package:untitled/constants/constant.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/models/cake.dart';
 import 'package:untitled/screens/products/cake_details.dart';
+import 'package:untitled/screens/products/edit_product.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
 class SingleProductWidget extends StatefulWidget {
@@ -87,7 +88,7 @@ class _SingleProductWidgetState extends State<SingleProductWidget> {
                   IconButton(
                       icon: Icon(Icons.edit),
                       onPressed: () {
-
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => EditProductsScreen(product: widget.product,)));
                       },
                   color: Theme.of(context).primaryColor,),
 
