@@ -45,6 +45,12 @@ class AddProductController extends GetxController {
     Get.offAll(() => HomeScreen());
   }
 
+  deleteProduct(String productId) async{
+    await firebaseFirestore.collection(cakes).doc(productId).delete(
+    );
+    Get.offAll(() => HomeScreen());
+  }
+
   _clearControllers() {
     cakeTitle.clear();
     cakeName.clear();

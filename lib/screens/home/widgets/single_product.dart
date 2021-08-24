@@ -1,13 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:untitled/constants/constant.dart';
 import 'package:untitled/constants/controllers.dart';
 import 'package:untitled/models/cake.dart';
 import 'package:untitled/screens/products/cake_details.dart';
 import 'package:untitled/widgets/custom_text.dart';
 
-class SingleProductWidget extends StatelessWidget {
+class SingleProductWidget extends StatefulWidget {
   final ProductModel product;
 
   const SingleProductWidget({Key key, this.product}) : super(key: key);
+
+  @override
+  _SingleProductWidgetState createState() => _SingleProductWidgetState();
+}
+
+class _SingleProductWidgetState extends State<SingleProductWidget> {
+  String userEmail = "";
+  @override
+  void initState() {
+    // TODO: implement initState
+    getUserDetail();
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -39,13 +55,13 @@ class SingleProductWidget extends StatelessWidget {
                     topRight: Radius.circular(15),
                   ),
                   child: Image.network(
-                    product.image,
+                    widget.product.image,
                     width: double.infinity,
                   fit: BoxFit.cover,)),
             ),
           ),
           CustomText(
-            text: product.name,
+            text: widget.product.name,
             color: Colors.black,
             weight: FontWeight.bold,
           ),
@@ -58,7 +74,7 @@ class SingleProductWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 8.0),
                 child: CustomText(
-                  text: "₦${product.price}",
+                  text: "₦${moneyFormat.format(widget.product.price)}",
                   size: 15,
                   weight: FontWeight.bold,
                 ),
@@ -66,10 +82,42 @@ class SingleProductWidget extends StatelessWidget {
               SizedBox(
                 width: 30,
               ),
-              IconButton(
+              userEmail == "debbie@gmail.com" ? Row(
+                children: [
+                  IconButton(
+                      icon: Icon(Icons.edit),
+                      onPressed: () {
+
+                      },
+                  color: Theme.of(context).primaryColor,),
+
+                  IconButton(
+                      icon: Icon(Icons.delete),
+                      onPressed: () {
+                        Get.dialog(
+                          AlertDialog(
+                            content: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                ElevatedButton(onPressed: (){
+                                  Navigator.pop(context);
+                                }, child: Text("No")),
+
+                                ElevatedButton(onPressed: (){
+                                  Navigator.pop(context);
+                                  addProductController.deleteProduct(widget.product.id);
+                                }, child: Text("Confirm")),
+                              ],
+                            ),
+                          )
+                        );
+                      },
+                      color: Colors.redAccent),
+                ],
+              ) : IconButton(
                   icon: Icon(Icons.add_shopping_cart),
                   onPressed: () {
-                    cartController.addProductToCart(product);
+                    cartController.addProductToCart(widget.product);
                   })
             ],
           ),
@@ -78,7 +126,7 @@ class SingleProductWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 8),
                 child: CustomText(
-                  text: product.category,
+                  text: widget.product.category,
                   size: 10,
                   weight: FontWeight.w500,
                 ),
@@ -88,11 +136,20 @@ class SingleProductWidget extends StatelessWidget {
           SizedBox(height: 10,),
 
           Center(child: ElevatedButton.icon(onPressed: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context) => CakeDetails(product: product,)));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => CakeDetails(product: widget.product,)));
           }, icon: Icon(Icons.more_vert_outlined), label: Text('More')),),
           SizedBox(height: 10,),
         ],
       ),
     );
+  }
+
+  void getUserDetail() async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      userEmail = prefs.getString('email');
+      cartController.cartItems.value = userController.userModel.value.cart.length;
+    });
   }
 }

@@ -224,14 +224,14 @@ class _ProductsScreenState extends State<ProductsScreen> {
               controller: addProductController.cakePrice,
               keyboardType: TextInputType.number,
               textCapitalization: TextCapitalization.words,
-              decoration: InputDecoration(labelText: 'Food Price'),
+              decoration: InputDecoration(labelText: 'Cake Price'),
               textInputAction: TextInputAction.next,
               onSaved: (value) {
 
               },
               validator: (value) {
                 if (value.length < 3) {
-                  return 'Please enter a valid food price';
+                  return 'Please enter a valid cake price';
                 } else
                   return null;
               },
@@ -243,7 +243,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
               if(_isFormValidated()){
                 uploadFile();
               }
-            }, child: Text("Add Food"))
+            }, child: Text("Add Cake"))
           ],
         )),
       ))
