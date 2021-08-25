@@ -1,4 +1,4 @@
-# Flutter Shopping Cart with GetX, Stripe and Firebase
+# Cake showcase and ordering app, a final year project for Deborah a computer Science Student of Plateau State University, Bokkos
 
 A new Flutter project.
 
