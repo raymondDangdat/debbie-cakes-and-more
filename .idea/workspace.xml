@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871f5490-3746-452b-a129-41e932ec168b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/controllers/edit_product_controller.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/products/edit_product.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/controllers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/controllers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/firebase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/widgets/single_product.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/widgets/single_product.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/products/products.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/products/products.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,22 +99,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="AVDManager/0.0.1280.800@0.0.1280.800" timestamp="1629374345325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1629845417561">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1629848521411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629845417561" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1629845417559">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629848521411" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1629848521408">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629845417559" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1629845417557">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629848521408" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1629848521407">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629845417557" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1629845417560">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629848521407" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1629848521409">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629845417560" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629848521409" />
     <state x="228" y="150" key="IDE.errors.dialog" timestamp="1629377844083">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
