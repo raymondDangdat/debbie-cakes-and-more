@@ -81,13 +81,15 @@ class RegistrationWidget extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                   child: TextField(
+                    maxLength: 11,
                     controller: userController.phone,
                     keyboardType: TextInputType.phone,
                     decoration: InputDecoration(
+                        counterText: "", 
                         icon: Icon(Icons.phone),
                         fillColor: Colors.white,
                         border: InputBorder.none,
-                        hintText: "Phone Number"),
+                        hintText: "e.g 09095355152"),
                   ),
                 ),
               ),

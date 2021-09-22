@@ -22,7 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871f5490-3746-452b-a129-41e932ec168b" name="Default Changelist" comment="" />
+    <list default="true" id="871f5490-3746-452b-a129-41e932ec168b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/firebase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controllers/authController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/authController.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/authentication/widgets/registration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/authentication/widgets/registration.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,22 +105,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="AVDManager/0.0.1280.800@0.0.1280.800" timestamp="1629374345325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1629848521411">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1631777578027">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629848521411" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1629848521408">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1631777578027" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1631777578025">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629848521408" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1629848521407">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1631777578025" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1631777578024">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629848521407" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1629848521409">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1631777578024" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1631777578026">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629848521409" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1631777578026" />
     <state x="228" y="150" key="IDE.errors.dialog" timestamp="1629377844083">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -120,9 +129,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="187" y="85" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1629525561857" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1629488738423">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1630384329558">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1629488738423" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1630384329558" />
   </component>
 </project>

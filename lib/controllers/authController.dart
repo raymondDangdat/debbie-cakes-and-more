@@ -80,6 +80,9 @@ class UserController extends GetxController {
   }
 
   void signOut() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.clear();
+    print("Saved email: ${prefs.getString('email')}");
     auth.signOut();
   }
 
