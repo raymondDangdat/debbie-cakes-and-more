@@ -1,4 +1,4 @@
-# Flutter Shopping Cart with GetX, Stripe and Firebase
+# Flutter Cake ordering and delivery app with GetX, Stripe and Firebase
 
 A new Flutter project.
 
